@@ -135,3 +135,20 @@ def compute_covariance(x, y):
     den = len(x)
     cov = num / den
     return cov
+
+###########################################################################################################################
+
+def normalize_tempo_value(tempo_val, min_tempo, max_tempo):
+    return (tempo_val - min_tempo) / (max_tempo - min_tempo)
+
+def discretize_value(val):
+    if val >= 0.8:
+        return 5
+    elif val >= 0.6:
+        return 4
+    elif val >= 0.4:
+        return 3
+    elif val >= 0.2:
+        return 2
+    else:
+        return 1

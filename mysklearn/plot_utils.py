@@ -19,9 +19,9 @@ def draw_pie_chart(title, labels, data):
     plt.title(title)
     plt.show()
 
-def draw_histogram(title, x_axis_label, y_axis_label, data, num_bins):
+def draw_histogram(title, x_axis_label, y_axis_label, data, num_bins, range=None):
     plt.figure(figsize=(15,8))
-    plt.hist(data, bins=num_bins, edgecolor="black")
+    plt.hist(data, bins=num_bins, range=range, edgecolor="black")
     plt.title(title)
     plt.xlabel(x_axis_label)
     plt.ylabel(y_axis_label)
