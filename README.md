@@ -1,5 +1,5 @@
 # Spotify Hit Prediction Project
-### Contributors: Kyle Manning
+### Contributors: Kyle Manning, Blake Rosenthal
 ### Class: CPSC 322, Spring 2022
 ## Project Description
 This project revolves around the classification task of predicting whether Spotify tracks are 'Hits' or 'Flops' based on a number of different attributes.
